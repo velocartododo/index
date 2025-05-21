@@ -1,10 +1,26 @@
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <title>vélo carto dodo</title>
-  </head>
-  <body>
-    <p>
-      Site en construction, bientôt ici des cartes, des photos et des récits de notre vie à vélo.
-    </p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vélo-carto-dodo</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-gpx@1.7.0/gpx.css" />
+
+    <style>
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-gpx@1.7.0/gpx.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
